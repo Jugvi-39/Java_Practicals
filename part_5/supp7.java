@@ -6,8 +6,10 @@ class DuplicateNumberException extends Exception {
     }
 }
 
-public class supp5 {
-    public static void checkForDuplicates(int[] numbers) throws DuplicateNumberException {
+public class supp7
+{
+    public static void checkForDuplicates(int[] numbers) throws DuplicateNumberException 
+    {
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i + 1; j < numbers.length; j++) {
                 if (numbers[i] == numbers[j]) {
